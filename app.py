@@ -12,3 +12,10 @@ st.write(df.head())
 
 st.subheader("Last Five Rows")
 st.write(df.tail())
+
+st.subheader ("Dataset Columns")
+st.write(df.columns)
+
+st.subheader("Dataset Shape")
+st.write(df.shape)
+
